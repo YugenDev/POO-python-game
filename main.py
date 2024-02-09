@@ -71,8 +71,9 @@ mi_personaje.atributos()
 
 #A partir de aca empieza la pelea
 print("\x1b[1;33m"+"******Pelea******"+"\x1b[0m")
+print("(como abajo volvemos a instanciar a los personajes ya la def de subir nivel no se aplica pq reescribmos los datos de los personajes a estos de abajo)")
 mi_personaje = Personaje("urato", 10, 1, 6, 100)
 mi_enemigo = Personaje("programacion", 7, 10, 5, 100)
 
 mi_personaje.atacar(mi_enemigo)
-mi_enemigo.atributos(mi_enemigo)
+mi_enemigo.atributos()
